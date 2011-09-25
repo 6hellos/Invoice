@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="0.032" errors="0" skipped="0" tests="3" name="BasicTest">
+  <testcase classname="BasicTest" name="aVeryImportantThingToTest" time="0.005">
+      </testcase>
+  <testcase classname="BasicTest" name="seeWhetherInvoiceExists" time="0">
+      </testcase>
+  <testcase classname="BasicTest" name="createAndRetrieveUser" time="0.027">
+      </testcase>
+</testsuite>

@@ -1,0 +1,7 @@
+25 Sep 2011 17:11:19,691 INFO  ~ Starting C:\tmp\GPP
+25 Sep 2011 17:11:19,691 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
+25 Sep 2011 17:11:19,691 INFO  ~ Module secure is available (C:\DevLibraries\play-1.2\modules\secure)
+25 Sep 2011 17:11:20,362 WARN  ~ You're running Play! in DEV mode
+25 Sep 2011 17:11:20,471 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+25 Sep 2011 17:11:27,643 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+25 Sep 2011 17:11:28,365 INFO  ~ Application 'GPP' is now started !

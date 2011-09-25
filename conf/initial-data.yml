@@ -1,0 +1,55 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+Invoice(inv1):
+   invoiceNumber: 1
+   dueDate: '2011-10-12'
+   balanceDue: 3000
+   discountDueDate: '2011-10-10'
+   discountAmount: 5
+   annualFinanceCharge: 2
+   status: Pending
+   action: true
+   
+Invoice(inv2):
+   invoiceNumber: 2
+   dueDate: '2011-09-10'
+   balanceDue: 5000
+   discountDueDate: '2011-09-01'
+   discountAmount: 100
+   annualFinanceCharge: 5
+   status: Finished
+   action: false
+
+Invoice(inv3):
+   invoiceNumber: 3
+   dueDate: '2011-08-08'
+   balanceDue: 8000
+   discountDueDate: '2011-08-08'
+   discountAmount: 200
+   annualFinanceCharge: 1
+   status: Started
+   action: true
+
+Invoice(inv4):
+   invoiceNumber: 4
+   dueDate: '2011-11-11'
+   balanceDue: 9000
+   discountDueDate: '2011-11-11'
+   discountAmount: 300
+   annualFinanceCharge: 10
+   status: Almost Gone
+   action: true
+
+User(paolo):
+   email: paolo@6hellos.com
+   password: paolo
+   fullname: Paolo del Mundo
+
+User(karthik):
+   email: karthik@6hellos.com
+   password: karthik
+   fullname: Karthik Ramachandran
+   
+
+

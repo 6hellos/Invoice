@@ -1,0 +1,28 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<table>
+    <tr>
+        <td>Invoice Number</td>
+        <td>Due Date</td>
+        <td>Balance Due</td>
+        <td>Discount Due Date</td>
+        <td>Discount Amount</td>
+        <td>Annual Finance Charge</td>
+        <td>Status</td>
+        <td>Action</td>
+
+    </tr>
+#{list items:invoices, as:'invoice'}
+    <tr>
+        <td>${invoice.invoiceNumber}</td>
+        <td>${invoice.dueDate}</td>
+        <td>${invoice.balanceDue}</td>
+        <td>${invoice.discountDueDate}</td>
+        <td>${invoice.discountAmount}</td>
+        <td>${invoice.annualFinanceCharge}</td>
+        <td>${invoice.status}</td>
+        <td>${invoice.action}</td>
+    </tr>
+#{/list}
+</table>
